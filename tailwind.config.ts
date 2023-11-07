@@ -13,6 +13,7 @@ const config: Config = {
           poppins: ["var(--font-poppins)"],
           hind: ["var(--font-hind)"],
           lato: ["var(--font-lato)"],
+          playfair: ["var(--font-playfair)"],
         },
     },
   },

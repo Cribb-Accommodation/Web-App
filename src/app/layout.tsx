@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter, Hind, Poppins, Lato } from "next/font/google";
+import { Inter, Hind, Poppins, Lato, Playfair_Display } from "next/font/google";
 
 const inter = Inter({
   style: "normal",
@@ -13,6 +13,12 @@ const hind = Hind({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-hind",
+});
+const playfair = Playfair_Display({
+  style: "normal",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-playfair",
 });
 const poppins = Poppins({
   style: "normal",
@@ -40,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${hind.variable} ${poppins.variable} ${lato.variable} h-full  w-full font-sans`}
+        className={`${inter.variable} ${hind.variable} ${poppins.variable} ${lato.variable} ${playfair.variable} h-full  w-full font-sans`}
       >
         {children}
       </body>
