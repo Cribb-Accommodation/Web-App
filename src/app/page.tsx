@@ -6,7 +6,7 @@ import Services from "@/components/LandingPage/services";
 
 export default function Home() {
   return (
-    <main className="h-screen leading-[normal]">
+    <main className="h- screen leading-[normal]">
       <Hero />
       <PreviewListing />
       <Services />
