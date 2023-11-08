@@ -28,7 +28,7 @@ function Hero() {
         </p>
         <form className="px-[1rem] flex md:justify-center flex-col md:flex-row gap-[1rem]">
           <input
-            className="rounded-[0.5rem] placeholder:text-[#AAA] w-full md:w-[24.75rem] px-[1rem] py-[1.5rem] block text-[#FEFAE0] font-normal leading-[normal] text-base font-poppins"
+            className="rounded-[0.5rem] placeholder:text-[#AAA] text-[#AAAAAA] w-full md:w-[24.75rem] px-[1rem] py-[1.5rem] block bg-[#E6E6E6] font-normal leading-[normal] text-base font-poppins"
             type="text"
             placeholder="Email Address"
           />
