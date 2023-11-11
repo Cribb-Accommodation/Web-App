@@ -1,8 +1,11 @@
-export type socialmediaT = [JSX.Element, string];
+import React from "react";
+
+export type socialmediaT = [React.ReactElement<SVGElement>, string];
 export type usefullinksT = string[];
 export const socialMedia: socialmediaT[] = [
   [
     <svg
+      key="twitter"
       xmlns="http://www.w3.org/2000/svg"
       width="40"
       height="40"
@@ -14,10 +17,11 @@ export const socialMedia: socialmediaT[] = [
         fill="#18140A"
       />
     </svg>,
-    "",
+    "/",
   ],
   [
     <svg
+      key="mail"
       xmlns="http://www.w3.org/2000/svg"
       width="40"
       height="40"
@@ -29,11 +33,11 @@ export const socialMedia: socialmediaT[] = [
         fill="#18140A"
       />
     </svg>,
-    "",
+    "/",
   ],
 ];
 export const usefullinks: usefullinksT[] = [
-  ["About us", ""],
-  ["Contact us", ""],
-  ["Accommodation owner/agent?", ""],
+  ["About us", "/"],
+  ["Contact us", "/"],
+  ["Accommodation owner/agent?", "/"],
 ];

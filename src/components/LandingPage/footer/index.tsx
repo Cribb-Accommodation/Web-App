@@ -18,15 +18,15 @@ function Footer() {
           </div>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-[1.5rem] llg:gap-[5rem]  text-center my-[4rem] ">
             <div className="flex flex-col lg:flex-row gap-[1.5rem] llg:gap-[5rem]">
-              {usefullinks.map(([item, link]: usefullinksT, key: number) => (
-                <Link href={link} key={key} className="">
+              {usefullinks.map(([item, link]: usefullinksT, index: number) => (
+                <Link href={link} key={index} className="">
                   {item}
                 </Link>
               ))}
             </div>
             <div className="flex max-md:pt-[1.5rem] justify-center gap-[1.5rem]">
-              {socialMedia.map(([item, link]: socialmediaT, key: number) => (
-                <Link href={link} key={key} className="">
+              {socialMedia.map(([item, link]: socialmediaT, index: number) => (
+                <Link href={link} key={index} className="">
                   {item}
                 </Link>
               ))}
