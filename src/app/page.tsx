@@ -1,14 +1,16 @@
-import PreviewListing from "@/components/featuredAccomodations";
-import Footer from "@/components/footer";
-import Hero from "@/components/hero";
-import Services from "@/components/services";
+import PreviewListing from "@/components/LandingPage/featuredAccomodations";
+import Footer from "@/components/LandingPage/footer";
+import Getstarted from "@/components/LandingPage/getstarted";
+import Hero from "@/components/LandingPage/hero";
+import Services from "@/components/LandingPage/services";
 
 export default function Home() {
   return (
-    <main className="h-screen leading-[normal]">
+    <main className="h- screen leading-[normal]">
       <Hero />
       <PreviewListing />
       <Services />
+      <Getstarted />
       <Footer />
     </main>
   );

@@ -33,10 +33,11 @@ const config: Config = {
       colors: {
       // primary color
       default: "#000",
-      default2: "#FFF",
+      default2: "#FDFAF6",
       primary_text: "#18140A",
       subText: "#4A463C",
-      Main_primary_colour: "#BC6C25"
+      Main_primary_colour: "#BC6C25",
+      bg_primary:"#FEFAE0"
     },
         fontFamily: {
           inter: ["var( --font-inter)"],

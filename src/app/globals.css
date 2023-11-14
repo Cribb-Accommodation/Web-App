@@ -16,3 +16,20 @@
     bottom: 100px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .btn-anime {
+    bottom: 40px;
+    animation: movingArrow 0.5s linear alternate infinite;
+    /* transition: all 1s ease-in-out; */
+  }
+  @keyframes movingArrow {
+    /* 40%,
+    60% {
+      left: calc(100% + 30px);
+    } */
+    100% {
+      bottom: 60px;
+    }
+  }
+}
